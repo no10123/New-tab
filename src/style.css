@@ -1,0 +1,14 @@
+#bg {
+  width: 100vh;
+  height: 100vh;
+}
+
+#title {
+  color: #cdd6f4;
+  position:absolute;
+}
+
+#desc {
+  color: #cdd6f4;
+  position: absolute;
+}

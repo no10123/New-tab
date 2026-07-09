@@ -14,9 +14,9 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`).then(response =>
     } else {
       t = "img"
     }
-    document.querySelector("#app").innerHTML = `<h1>${data.title}</h1>\n` + 
-    `<${t} src=${data.url}>${T}\n` + 
-    `<p>${data.explanation}</p>`;
+    document.querySelector("#app").innerHTML = `<h1 id="title">${data.title}</h1>\n` + 
+    `<${t} id="bg" src=${data.url}>${T}\n` + 
+    `<p id="desc">${data.explanation}</p>`;
 }).catch(err => {
     document.querySelector("#app").innerHTML = `<p>Error: ${err.message}</p>`;
 });
