@@ -23,3 +23,15 @@
 #datepicker {
   position: absolute;
 }
+
+#clock {
+  position: absolute;
+  color: #cdd6f4;
+  opacity: 1;
+  margin: auto;
+}
+
+.box {
+  background-color: #1e1e2e;
+  opacity: 0.3;
+}
