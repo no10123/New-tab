@@ -32,6 +32,8 @@
 }
 
 .box {
+  border-radius: 5px;
   background-color: #1e1e2e;
   opacity: 0.3;
+  color: #cdd6f4;
 }
