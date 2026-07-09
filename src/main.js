@@ -53,6 +53,7 @@ datePicker.addEventListener('change', (event) => {
         <h1 id="title">${data.title}</h1>
         <p id="desc">${data.explanation}</p>
       </div>
+      <h1 id="clock">00:00:00</h1>
     `;
 }).catch(err => {
     document.querySelector("#app").innerHTML = `<p>Error: ${err.message}</p>`;
