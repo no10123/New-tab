@@ -50,20 +50,20 @@ if (datePicker) {
   });
 }
 
-function R() {
+document.querySelector("#r").addEventListener("click", () => {
   const start = new Date(1995, 5, 16).getTime();
   const end = new Date().getTime();
   const randomTime = new Date(start + Math.random() * (end - start));
   const randomDate = randomTime.toISOString().split('T')[0]; 
   loadApod(randomDate);
-}
+});
 
-function toggleClock() {
+document.querySelector("#c").addEventListener("click", () => {
   const clock = document.getElementById('clock');
   if (clock) {
     clock.style.opacity = clock.style.opacity === "0" ? "1" : "0";
   }
-}
+});
 
 setInterval(() => {
   const clock = document.getElementById('clock');
