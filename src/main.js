@@ -27,8 +27,10 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`).then(response =>
 });
 
 
-const date = document.querySelector("#datepicker");
-datePicker.addEventListener('input', (event) => {
+const datePicker = document.querySelector("#datepicker");
+const today = new Date().toISOString().split('T')[0];
+datePicker.max = today;
+datePicker.addEventListener('change', (event) => {
     const date = event.target.value; 
     fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`).then(response => response.json()).then(data => {
     console.log(data);
