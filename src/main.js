@@ -5,7 +5,7 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`).then(response =>
     console.log(data);
 })
 
-//document.querySelector("#app").innerHTML = `<img src=>`;
+document.querySelector("#app").innerHTML = `<h1>${data.title}</h1>`;
 
 const date = document.querySelector("#datepicker").value;
 fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`)
