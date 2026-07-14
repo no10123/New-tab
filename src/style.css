@@ -40,6 +40,10 @@
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
+p {
+  color: #cdd6f4;
+}
+
 .content-overlay {
     /*from - https://backseasy.com/nebula-effect*/
     position: relative;
@@ -47,7 +51,7 @@
     box-sizing: border-box;
     backdrop-filter: blur(10px) saturate(130%);
     -webkit-backdrop-filter: blur(10px) saturate(130%);
-    background-color: rgba(151, 111, 182, 0.349);
+    background-color: #a6e3a1;
     border-radius: 28px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
