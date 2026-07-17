@@ -67,10 +67,10 @@ p {
 .roll-c {
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0 100%, 0 23%);
   position: fixed;
-  bottom: 0px;
-  left:   0px;
-  width: 50vh;
-  height: 50vh;
+  bottom: -10px;
+  left:   -10px;
+  width: 10vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -83,4 +83,13 @@ p {
   justify-content: center;
   align-items: center; 
   text-align: center;
+}
+
+.sticker {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 60px;
+  height: auto;
+  transform: rotate(15deg);
 }
