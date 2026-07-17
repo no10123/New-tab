@@ -72,3 +72,9 @@ p {
   width: 50vh;
   height: 50vh;
 }
+
+.pill {
+  border-radius: 999px;
+  background-color: #1e1e2e;
+  color: #cdd6f4; 
+}
