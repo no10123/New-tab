@@ -8,7 +8,8 @@ Also shows the time.
 visit at: https://no10123.github.io/New-tab/ 
 
 example img:
-<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/58440834-af8b-4433-9564-bb90ceb99af1" />
+<img width="1890" height="869" alt="image" src="https://github.com/user-attachments/assets/d79f88a7-5a10-4312-aa6d-956e87cc4e96" />
+
 
 credits:
 
