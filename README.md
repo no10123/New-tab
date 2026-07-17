@@ -5,6 +5,8 @@ Also shows the title of the img / video and description.
 
 Also shows the time.
 
+visit at: https://no10123.github.io/New-tab/ 
+
 example img:
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/58440834-af8b-4433-9564-bb90ceb99af1" />
 
