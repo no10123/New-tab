@@ -93,3 +93,7 @@ p {
   height: auto;
   transform: rotate(15deg);
 }
+
+body {
+  overflow: hidden;
+}
