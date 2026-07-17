@@ -87,9 +87,9 @@ p {
 
 .sticker {
   position: absolute;
-  bottom: -15px;
-  right: -15px;
-  width: 60px;
+  bottom: 15px;
+  right: 15px;
+  width: 150px;
   height: auto;
   transform: rotate(15deg);
 }
